@@ -1,0 +1,13 @@
+Source: check-ceph-dash
+Section: utils
+Priority: optional
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>=9), python
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/SOSETH/check_ceph_dash.git
+Vcs-Browser: https://github.com/SOSETH/check_ceph_dash
+
+Package: check-ceph-dash
+Architecture: any
+Depends: python, ${misc:Depends}
+Description: Nagios Check for Ceph Cluster Status (via ceph-dash)
